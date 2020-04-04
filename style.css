@@ -176,19 +176,25 @@ header a:hover{
 }
 
 /* Boxes */
+
+#box_header{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#boxes .box li a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform:capitalize;
+  font-size: 16px;
+  display:block;
+}
 #boxes .box li{
   color:#ffffff;
   text-decoration: none;
   text-transform:capitalize;
   font-size: 16px;
-  display: grid;
-}
-#boxes .box a{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-  display: grid;
+  display:block;
 }
 #boxes{
   color: #ffffff;
@@ -198,7 +204,7 @@ header a:hover{
 #boxes .box{
   float:left;
   text-align: center;
-  width:30%;
+  width:32%;
   padding: 10px;
 }
 
@@ -218,7 +224,7 @@ footer{
 #page-title
 
 /* Media Queries */
-@media (max-width:768px) {
+@media(max-width:768px) {
   header #branding,
   header nav,
   header nav li,
