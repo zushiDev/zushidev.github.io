@@ -25,7 +25,6 @@ ul{
 }
 
 #email_id {
-  border-bottom: #000000 3px solid;
 }
 
 /* Main Games Section*/
@@ -57,7 +56,6 @@ header{
   color:#ffffff;
   padding-top:30px;
   min-height: 70px;
-  border-bottom: #000000 3px solid;
 }
 header a{
   color:#ffffff;
@@ -100,7 +98,6 @@ header a:hover{
   min-height: 200px;
   background:url('./img/showcase.png') no-repeat 0 -290px;
   text-align: center;
-  border-bottom: #000000 3px solid;
 }
 
 #showcase p{
@@ -113,11 +110,9 @@ header a:hover{
 /* Newsletter */
 
 #newsletter2{
-  border-top: #000000 3px solid;
   padding:15px;
   color:#ffffff;
   background:#444444;
-  border-bottom: #000000 3px solid;
 }
 #newsletter2 form{
   padding-right: 20px;
@@ -147,7 +142,6 @@ header a:hover{
   padding:15px;
   color:#ffffff;
   background:#222222;
-  border-bottom: #000000 3px solid;
 }
 #newsletter form{
   padding-right: 20px;
@@ -198,7 +192,6 @@ header a:hover{
 #boxes{
   color: #ffffff;
   margin-top: 10px;
-  border-bottom: #000000 3px solid;
 }
 #boxes .box{
   float:left;
