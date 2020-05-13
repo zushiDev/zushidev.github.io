@@ -27,6 +27,11 @@ ul{
   padding-bottom: 500px;
 }
 
+<<<<<<< HEAD
+=======
+#email_id {
+}
+>>>>>>> b9f2b3d12c72ad8ed3c9e7cbfb140f63031bfed1
 
 /* Main Games Section*/
 
@@ -99,8 +104,11 @@ header a:hover{
   min-height: 300px;
   background:url('./img/showcase.png') no-repeat 0 -290px;
   text-align: center;
+<<<<<<< HEAD
     border-bottom: #222222 8px solid;
 
+=======
+>>>>>>> b9f2b3d12c72ad8ed3c9e7cbfb140f63031bfed1
 }
 
 #showcase p{
@@ -219,10 +227,14 @@ header a:hover{
 }
 #boxes{
   color: #ffffff;
+<<<<<<< HEAD
   margin-top:10px;
   padding-bottom:5%;
   padding-top:5%;
 
+=======
+  margin-top: 10px;
+>>>>>>> b9f2b3d12c72ad8ed3c9e7cbfb140f63031bfed1
 }
 
 #boxes .box1{
