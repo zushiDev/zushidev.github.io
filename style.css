@@ -7,9 +7,11 @@ body{
 
 /* Global */
 .container{
-  width:80%;
+  width: 90%;
   margin:auto;
   overflow:hidden;
+  left: 50%;
+  right: 50%;
 }
 
 ul{
@@ -22,11 +24,9 @@ ul{
   color:#ffffff;
   text-align: center;
   padding: 10px;
+  padding-bottom: 500px;
 }
 
-#email_id {
-  border-bottom: #000000 3px solid;
-}
 
 /* Main Games Section*/
 
@@ -47,8 +47,9 @@ ul{
   text-transform:capitalize;
   font-size: 16px;
 }
+
 #main{
-  padding-bottom: 500px;
+  padding-bottom: 600px;
 }
 
 /* Header */
@@ -57,9 +58,7 @@ header{
   color:#ffffff;
   padding-top:30px;
   min-height: 70px;
-  border-bottom: #000000 3px solid;
 }
-
 header a{
   color:#ffffff;
   text-decoration: none;
@@ -67,29 +66,28 @@ header a{
   font-weight: bold;
   font-size: 16px;
 }
-
 header li{
-  float:left;
   display: inline;
   padding: 0 20px 0 20px;
 }
-
 header #branding{
   float:left;
 }
-
+header img{
+  float:left;
+}
 header #branding h1{
   margin:0;
+  float:right;
+  padding-left:20px;
 }
 header nav{
   float:right;
   margin-top:10px;
 }
-
 header .underlined, header .current a{
   text-decoration: underline;
 }
-
 header a:hover{
   color:#333333;
   font-size: 18px;
@@ -98,27 +96,26 @@ header a:hover{
 /* Showcase */
 #showcase{
   color:#ffffff;
-  min-height: 200px;
+  min-height: 300px;
   background:url('./img/showcase.png') no-repeat 0 -290px;
   text-align: center;
-  border-bottom: #000000 3px solid;
+    border-bottom: #222222 8px solid;
+
 }
 
 #showcase p{
-  padding-top: 20px;
+    padding-bottom:10%;
 }
 #showcase h1{
-  padding-top:25px;
+    padding-top:10%;
 }
 
 /* Newsletter */
 
 #newsletter2{
-  border-top: #000000 3px solid;
   padding:15px;
   color:#ffffff;
   background:#444444;
-  border-bottom: #000000 3px solid;
 }
 #newsletter2 form{
   padding-right: 20px;
@@ -148,7 +145,6 @@ header a:hover{
   padding:15px;
   color:#ffffff;
   background:#222222;
-  border-bottom: #000000 3px solid;
 }
 #newsletter form{
   padding-right: 20px;
@@ -182,34 +178,84 @@ header a:hover{
   text-decoration: underline;
 }
 
-#boxes .box li a{
+#boxes .box1 li a{
   color:#ffffff;
   text-decoration: none;
   text-transform:capitalize;
   font-size: 16px;
-  display:block;
 }
-#boxes .box li{
+#boxes .box2 li a{
   color:#ffffff;
   text-decoration: none;
   text-transform:capitalize;
   font-size: 16px;
-  display:block;
+}
+#boxes .box3 li a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform:capitalize;
+  font-size: 16px;
+}
+#boxes .box1 li{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform:capitalize;
+  font-size: 16px;
+  display: block;
+}
+#boxes .box2 li{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform:capitalize;
+  font-size: 16px;
+  display: block;
+}
+#boxes .box3 li{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform:capitalize;
+  font-size: 16px;
+  display: block;
 }
 #boxes{
   color: #ffffff;
-  margin-top: 10px;
-  border-bottom: #000000 3px solid;
-}
-#boxes .box{
-  float:left;
-  text-align: center;
-  width:32%;
-  padding: 10px;
+  margin-top:10px;
+  padding-bottom:5%;
+  padding-top:5%;
+
 }
 
-#boxes .box img{
-  width: 150px;
+#boxes .box1{
+  display: inline-block;
+  text-align: center;
+  min-width: 420px;
+  padding-left:10px;
+  padding-right:10px;
+  float:left;
+}
+#boxes .box2{
+  display: inline-block;
+  text-align: center;
+  min-width: 420px;
+  padding-left:11%;
+}
+#boxes .box3{
+  display: inline-block;
+  text-align: center;
+  min-width: 420px;
+  padding-left:10px;
+  padding-right:10px;
+  float:right;
+}
+
+#boxes .box1 img{
+  width: 250px;
+}
+#boxes .box2 img{
+  width: 250px;
+}
+#boxes .box3 img{
+  width: 250px;
 }
 
 footer{
@@ -219,40 +265,4 @@ footer{
   background: #222222;
   text-align: center;
   font-weight: bold;
-}
-
-#page-title
-
-/* Media Queries */
-@media(max-width:768px) {
-  header #branding,
-  header nav,
-  header nav li,
-  #newsletter h1,
-  #newsletter form,
-  #newsletter2 h1,
-  #newsletter2 form,
-  #boxes .box{
-    float:none;
-    text-align: center;
-    width: 100%;
-  }
-
-  header{
-    padding-bottom: 20px;
-  }
-
-  #showcase h1{
-    margin-top: 40px;
-  }
-
-  #newsletter button{
-    display: block;
-    width: 100%
-  }
-
-  #newsletter form input[type="email"]{
-    width: 100%;
-    margin-bottom: 5px;
-  }
 }
