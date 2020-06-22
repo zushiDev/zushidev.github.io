@@ -1,4 +1,3 @@
-# onlinegames
-Online Unblocked Games
-Created by @Zushi_Dev
-Hosting Unity WebGL Games Online
+# Zushi Online Games
+Created by Zushi
+Hosting Unity WebGL Games Since 2019
