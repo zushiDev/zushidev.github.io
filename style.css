@@ -1,267 +1,139 @@
+/* Global */
+
 body{
-  font:15px/1.5 Helvetica;
-  padding:0;
-  margin:0;
-  background-color: #333333;
+  font-family:"Trebuchet MS",Arial,sans-serif;
+  font-weight: 900;
+  margin: 0px;
+  background: #333;
 }
 
-/* Global */
 .container{
   width: 90%;
-  margin:auto;
-  overflow:hidden;
-  left: 50%;
-  right: 50%;
-}
-
-ul{
-  margin: 0;
-  padding: 0;
-}
-/* About */
-
-#email_tag {
-  color:#ffffff;
+  margin: 0 auto;
+  overflow: hidden;
   text-align: center;
-  padding: 10px;
-  padding-bottom: 250px;
-  padding-top: 250px;
-}
-
-/* Main Games Section*/
-
-#main h1{
-  font-size: 30px;
-  color:#ffffff;
-  text-align:center ;
-}
-#main li{
-  color:#ffffff;
-  text-decoration: none;
-  text-align: center;
-}
-
-#main a{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-}
-
-#main{
-  padding-bottom: 600px;
 }
 
 /* Header */
-header{
-  background:#222222;
-  color:#ffffff;
-  padding-top:30px;
-  min-height: 70px;
-}
-header a{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 16px;
-}
-header li{
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-header #branding{
-  float:left;
-}
+
 header img{
-  float:left;
+  max-width: 50px;
+  float: left;
+  margin: 15px;
 }
-header #branding h1{
-  margin:0;
-  float:right;
-  padding-left:20px;
+header{
+  min-height: 80px;
+  background-color: #222;
 }
+
+header li{
+  display: block;
+  padding: 10px ;
+  margin: 6px 10px;
+  float: right;
+  border-radius:10px;
+  text-transform:uppercase;
+
+}
+
 header nav{
-  float:right;
-  margin-top:10px;
-}
-header .underlined, header .current a{
-  text-decoration: underline;
-}
-header a:hover{
-  color:#333333;
-  font-size: 18px;
-}
-
-/* Showcase */
-#showcase{
-  color:#ffffff;
-  min-height: 300px;
-  background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffree4kwallpapers.com%2Fuploads%2Foriginals%2F2016%2F02%2F16%2Ffirewatch-is-a-beautiful-game-wallpaper.jpg&f=1&nofb=1) no-repeat 0 -290px;
   text-align: center;
-  border-bottom: #222222 8px solid;
 }
 
-#showcase p{
-    padding-bottom:10%;
-}
-#showcase h1{
-    padding-top:10%;
+li a{
+  text-decoration: none;
+  color: #fff;
 }
 
-/* Newsletter */
-
-#newsletter2{
-  padding:15px;
-  color:#ffffff;
-  background:#444444;
+header h1{
+  float:left;
+  color: #fff;
 }
-#newsletter2 form{
+
+.showcase{
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+  text-align: center;
+  padding: 20px 0px
+
+}
+
+.showcase h1{
+  padding-top: 60px;
+  color: #fff;
+}
+.showcase p{
+  padding-bottom: 60px;
+  color: #fff;
+}
+
+
+/* Featured */
+.box{
+  background-color: #333;
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  border-radius: 40px;
+  margin: 14px 14px ;
+}
+
+.box img{
+  width:250px;
+  padding: 25px;
+}
+
+.box a  {
+  margin: 0px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.box p{
+  padding-top: 10px;
+  margin: 0px;
+  padding-left: 20px;
   padding-right: 20px;
-  float:right;
-  padding-top: 20px;
-}
-#newsletter2 h1{
-  float:left;
-}
-#newsletter2 button{
-  border:none;
-  background-color: #f44336;
-  font-size: 16px;
-  padding-bottom:3px;
-  padding-left: 9px;
-  padding-right: 9px;
-}
-#newsletter2 input[type="email"]{
-  padding: 4px;
-  height:25px;
-  width: 250px;
-}
-#newsletter2 .button_1{
-  height: 38px;
-}
-#newsletter{
-  padding:15px;
-  color:#ffffff;
-  background:#222222;
-}
-#newsletter form{
-  padding-right: 20px;
-  float:right;
-  padding-top: 20px;
-}
-#newsletter h1{
-  float:left;
-}
-#newsletter button{
-  border:none;
-  background-color: #f44336;
-  font-size: 16px;
-  padding-bottom:3px;
-  padding-left: 9px;
-  padding-right: 9px;
-}
-#newsletter input[type="email"]{
-  padding: 4px;
-  height:25px;
-  width: 250px;
-}
-#newsletter .button_1{
-  height: 38px;
+  color: #fff;
 }
 
-/* Boxes */
-
-#box_header{
-  text-align: center;
-  text-decoration: underline;
+.featured{
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
-#boxes .box1 li a{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-}
-#boxes .box2 li a{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-}
-#boxes .box3 li a{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-}
-#boxes .box1 li{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-  display: block;
-}
-#boxes .box2 li{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-  display: block;
-}
-#boxes .box3 li{
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:capitalize;
-  font-size: 16px;
-  display: block;
-}
-#boxes{
-  color: #ffffff;
-  margin-top:10px;
-  padding-bottom:5%;
-  padding-top:5%;
-  margin-top: 10px;
+.featured h2{
+  padding-bottom: 35px;
+  margin: 0px;
+  color: #fff;
 }
 
-#boxes .box1{
-  display: inline-block;
-  text-align: center;
-  min-width: 420px;
-  padding-left:10px;
-  padding-right:10px;
-  float:left;
-}
-#boxes .box2{
-  display: inline-block;
-  text-align: center;
-  min-width: 420px;
-  padding-left:11%;
-}
-#boxes .box3{
-  display: inline-block;
-  text-align: center;
-  min-width: 420px;
-  padding-left:10px;
-  padding-right:10px;
-  float:right;
-}
-
-#boxes .box1 img{
-  width: 250px;
-}
-#boxes .box2 img{
-  width: 250px;
-}
-#boxes .box3 img{
-  width: 250px;
-}
+/* Footer */
 
 footer{
-  padding: 30px;
-  margin-top: 0px;
-  color: #ffffff;
-  background: #222222;
+  color: #fff;
+  background-color: #222;
   text-align: center;
-  font-weight: bold;
+  padding: 60px 0px 60px 0px;
+}
+
+
+/* Games List */
+
+.game-list{
+  padding: 160px 60px 160px;
+  text-decoration: none;
+  text-align: left;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* Email */
+
+.email{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding: 170px 0px 170px;
 }
