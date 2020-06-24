@@ -1,0 +1,151 @@
+/* Global */
+
+body{
+  font-family:"Trebuchet MS",Arial,sans-serif;
+  font-weight: 900;
+  margin: 0px;
+  background: #333;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Header */
+
+header img{
+  max-width: 50px;
+  float: left;
+  margin: 15px;
+}
+header{
+  min-height: 80px;
+  background-color: #222;
+}
+
+header li{
+  display: block;
+  padding: 10px ;
+  margin: 6px 10px;
+  float: right;
+  border-radius:10px;
+  text-transform:uppercase;
+
+}
+
+header nav{
+  text-align: center;
+}
+
+li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+header h1{
+  float:left;
+  color: #fff;
+}
+
+.showcase{
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+  text-align: center;
+  padding: 20px 0px
+
+}
+
+.showcase h1{
+  padding-top: 60px;
+  color: #fff;
+}
+.showcase p{
+  padding-bottom: 60px;
+  color: #fff;
+}
+
+
+/* Featured */
+.box{
+  background-color: #333;
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  border-radius: 40px;
+  margin: 14px 14px ;
+}
+
+.box img{
+  width:250px;
+  padding: 25px;
+}
+
+.box a  {
+  margin: 0px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.box p{
+  padding-top: 10px;
+  margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.featured{
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.featured h2{
+  padding-bottom: 35px;
+  margin: 0px;
+  color: #fff;
+}
+
+/* Footer */
+
+footer{
+  color: #fff;
+  background-color: #222;
+  text-align: center;
+  padding: 60px 0px 60px 0px;
+}
+
+
+/* Games List */
+
+.game-list{
+  padding: 160px 60px 160px;
+  text-decoration: none;
+  text-align: left;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* Email */
+
+.email{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding: 170px 0px 170px;
+}
+
+/* Media Query */
+
+@media (max-width:752px){
+  .box{
+    width: 450px;
+    height: 600px;
+  }
+  .box img{
+    width:400px;
+  }
+}
