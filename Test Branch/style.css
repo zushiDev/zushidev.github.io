@@ -157,3 +157,9 @@ footer{
   font-size: 20px;
   padding: 30px 0px 30px;
 }
+
+/* Iframe */
+
+Iframe {
+ padding: 20px; 
+}
