@@ -135,7 +135,7 @@ footer{
   text-align: center;
   color: #fff;
   font-size: 20px;
-  padding: 170px 0px 170px;
+  padding: 170px 0px 0px;
 }
 
 .email h1{
@@ -161,5 +161,12 @@ footer{
 /* Iframe */
 
 Iframe {
- padding: 20px; 
+ padding: 20px;
+}
+
+/* Social Media Buttons */
+.email img {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 180px;
 }
